@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col-md-6 col-md-offset-3 text-center">
+        <h2>{{message}}</h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <p>Person Counter:{{personCount}}</p>
+      <p ng-repeat="person in people">
+        {{person.name}}
+      </p>
+      <hr />
+    </div>
+</div>
